@@ -20,7 +20,7 @@ const Button = (props: IButtonProps) => {
       <style jsx>
         {`
           .btn {
-            @apply inline-block rounded-md text-center;
+            @apply inline-block rounded-xl text-center;
           }
 
           .btn-base {
@@ -32,11 +32,11 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white bg-gradient-to-r from-blue-600 to-purple-600;
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-gradient-to-r from-blue-700 to-purple-700;
           }
         `}
       </style>

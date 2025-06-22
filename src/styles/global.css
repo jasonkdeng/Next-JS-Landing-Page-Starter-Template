@@ -3,3 +3,162 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 3s ease infinite;
+}
+
+/* Unique floating animations for each highlighter stroke */
+@keyframes float-1 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-12deg); }
+  25% { transform: translateY(-8px) translateX(6px) rotate(-10deg); }
+  50% { transform: translateY(-12px) translateX(-4px) rotate(-14deg); }
+  75% { transform: translateY(-6px) translateX(8px) rotate(-8deg); }
+}
+
+@keyframes float-2 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(6deg); }
+  33% { transform: translateY(-10px) translateX(-7px) rotate(8deg); }
+  66% { transform: translateY(-5px) translateX(5px) rotate(4deg); }
+}
+
+@keyframes float-3 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-3deg); }
+  20% { transform: translateY(-15px) translateX(3px) rotate(-1deg); }
+  40% { transform: translateY(-8px) translateX(-9px) rotate(-5deg); }
+  60% { transform: translateY(-18px) translateX(7px) rotate(-2deg); }
+  80% { transform: translateY(-3px) translateX(-5px) rotate(-6deg); }
+}
+
+@keyframes float-4 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(15deg); }
+  50% { transform: translateY(-9px) translateX(-6px) rotate(17deg); }
+}
+
+@keyframes float-5 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-8deg); }
+  25% { transform: translateY(-11px) translateX(4px) rotate(-6deg); }
+  50% { transform: translateY(-7px) translateX(-8px) rotate(-10deg); }
+  75% { transform: translateY(-14px) translateX(2px) rotate(-4deg); }
+}
+
+@keyframes float-6 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(12deg); }
+  33% { transform: translateY(-6px) translateX(-5px) rotate(14deg); }
+  66% { transform: translateY(-12px) translateX(9px) rotate(10deg); }
+}
+
+@keyframes float-7 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-5deg); }
+  40% { transform: translateY(-8px) translateX(6px) rotate(-3deg); }
+  80% { transform: translateY(-16px) translateX(-4px) rotate(-7deg); }
+}
+
+@keyframes float-8 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(9deg); }
+  30% { transform: translateY(-13px) translateX(-3px) rotate(11deg); }
+  60% { transform: translateY(-5px) translateX(8px) rotate(7deg); }
+  90% { transform: translateY(-10px) translateX(-6px) rotate(13deg); }
+}
+
+@keyframes float-9 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-10deg); }
+  50% { transform: translateY(-7px) translateX(-5px) rotate(-12deg); }
+}
+
+@keyframes float-10 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(8deg); }
+  25% { transform: translateY(-9px) translateX(7px) rotate(10deg); }
+  50% { transform: translateY(-4px) translateX(-8px) rotate(6deg); }
+  75% { transform: translateY(-15px) translateX(3px) rotate(12deg); }
+}
+
+@keyframes float-11 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-6deg); }
+  33% { transform: translateY(-11px) translateX(-4px) rotate(-8deg); }
+  66% { transform: translateY(-6px) translateX(9px) rotate(-2deg); }
+}
+
+@keyframes float-12 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(11deg); }
+  20% { transform: translateY(-8px) translateX(5px) rotate(13deg); }
+  40% { transform: translateY(-14px) translateX(-7px) rotate(9deg); }
+  60% { transform: translateY(-3px) translateX(6px) rotate(15deg); }
+  80% { transform: translateY(-12px) translateX(-3px) rotate(7deg); }
+}
+
+@keyframes float-13 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-9deg); }
+  50% { transform: translateY(-10px) translateX(4px) rotate(-7deg); }
+}
+
+@keyframes float-14 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(7deg); }
+  30% { transform: translateY(-7px) translateX(-6px) rotate(9deg); }
+  60% { transform: translateY(-13px) translateX(8px) rotate(5deg); }
+  90% { transform: translateY(-4px) translateX(-5px) rotate(11deg); }
+}
+
+@keyframes float-15 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-4deg); }
+  25% { transform: translateY(-12px) translateX(3px) rotate(-2deg); }
+  50% { transform: translateY(-6px) translateX(-9px) rotate(-6deg); }
+  75% { transform: translateY(-9px) translateX(7px) rotate(0deg); }
+}
+
+@keyframes float-16 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(13deg); }
+  40% { transform: translateY(-8px) translateX(-4px) rotate(15deg); }
+  80% { transform: translateY(-15px) translateX(6px) rotate(11deg); }
+}
+
+@keyframes float-17 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-7deg); }
+  33% { transform: translateY(-11px) translateX(5px) rotate(-5deg); }
+  66% { transform: translateY(-5px) translateX(-8px) rotate(-9deg); }
+}
+
+@keyframes float-18 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(5deg); }
+  50% { transform: translateY(-9px) translateX(-3px) rotate(7deg); }
+}
+
+@keyframes float-19 {
+  0%, 100% { transform: translateY(0px) translateX(0px) rotate(-11deg); }
+  25% { transform: translateY(-7px) translateX(8px) rotate(-9deg); }
+  50% { transform: translateY(-13px) translateX(-5px) rotate(-13deg); }
+  75% { transform: translateY(-4px) translateX(6px) rotate(-7deg); }
+}
+
+/* Animation classes with different durations and delays */
+.animate-float-1 { animation: float-1 7s ease-in-out infinite; animation-delay: 0s; }
+.animate-float-2 { animation: float-2 5s ease-in-out infinite; animation-delay: 0.5s; }
+.animate-float-3 { animation: float-3 9s ease-in-out infinite; animation-delay: 1s; }
+.animate-float-4 { animation: float-4 4s ease-in-out infinite; animation-delay: 1.5s; }
+.animate-float-5 { animation: float-5 8s ease-in-out infinite; animation-delay: 2s; }
+.animate-float-6 { animation: float-6 6s ease-in-out infinite; animation-delay: 2.5s; }
+.animate-float-7 { animation: float-7 7s ease-in-out infinite; animation-delay: 3s; }
+.animate-float-8 { animation: float-8 5s ease-in-out infinite; animation-delay: 3.5s; }
+.animate-float-9 { animation: float-9 4s ease-in-out infinite; animation-delay: 4s; }
+.animate-float-10 { animation: float-10 8s ease-in-out infinite; animation-delay: 4.5s; }
+.animate-float-11 { animation: float-11 6s ease-in-out infinite; animation-delay: 5s; }
+.animate-float-12 { animation: float-12 9s ease-in-out infinite; animation-delay: 5.5s; }
+.animate-float-13 { animation: float-13 4s ease-in-out infinite; animation-delay: 6s; }
+.animate-float-14 { animation: float-14 7s ease-in-out infinite; animation-delay: 6.5s; }
+.animate-float-15 { animation: float-15 5s ease-in-out infinite; animation-delay: 7s; }
+.animate-float-16 { animation: float-16 6s ease-in-out infinite; animation-delay: 7.5s; }
+.animate-float-17 { animation: float-17 8s ease-in-out infinite; animation-delay: 8s; }
+.animate-float-18 { animation: float-18 4s ease-in-out infinite; animation-delay: 8.5s; }
+.animate-float-19 { animation: float-19 7s ease-in-out infinite; animation-delay: 9s; }
